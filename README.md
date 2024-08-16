@@ -1,4 +1,4 @@
-* Usage
+# Usage
 
 Run the following command.
 ``` shell
@@ -15,7 +15,7 @@ docker run -v ./data:/app/data fixed-to-delimited data/other_fixed_dataset.txt d
 
 Output parsed file can be found in `data/output.csv`.
 
-* Test
+# Test
 Run
 ``` shell
 python -m unittest
